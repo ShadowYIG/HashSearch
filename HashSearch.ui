@@ -6,17 +6,11 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>651</width>
-    <height>539</height>
+    <width>785</width>
+    <height>656</height>
    </rect>
   </property>
   <property name="minimumSize">
-   <size>
-    <width>651</width>
-    <height>539</height>
-   </size>
-  </property>
-  <property name="maximumSize">
    <size>
     <width>651</width>
     <height>539</height>
@@ -30,9 +24,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>320</y>
-      <width>631</width>
-      <height>71</height>
+      <y>290</y>
+      <width>761</width>
+      <height>101</height>
      </rect>
     </property>
     <column>
@@ -75,13 +69,23 @@
       </font>
      </property>
     </column>
+    <column>
+     <property name="text">
+      <string>查询耗时(ms)</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>宋体</family>
+      </font>
+     </property>
+    </column>
    </widget>
    <widget class="QTextEdit" name="text_name">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>120</x>
       <y>60</y>
-      <width>221</width>
+      <width>261</width>
       <height>41</height>
      </rect>
     </property>
@@ -114,9 +118,9 @@
    <widget class="QTextEdit" name="text_number">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>120</x>
       <y>130</y>
-      <width>221</width>
+      <width>261</width>
       <height>41</height>
      </rect>
     </property>
@@ -149,9 +153,9 @@
    <widget class="QTextEdit" name="text_mail">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>200</y>
-      <width>221</width>
+      <x>120</x>
+      <y>190</y>
+      <width>261</width>
       <height>41</height>
      </rect>
     </property>
@@ -173,7 +177,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>210</y>
+      <y>200</y>
       <width>51</width>
       <height>31</height>
      </rect>
@@ -192,7 +196,7 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>280</y>
+      <y>250</y>
       <width>51</width>
       <height>31</height>
      </rect>
@@ -210,9 +214,9 @@ p, li { white-space: pre-wrap; }
    <widget class="QTextEdit" name="text_addr">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>270</y>
-      <width>541</width>
+      <x>120</x>
+      <y>240</y>
+      <width>651</width>
       <height>41</height>
      </rect>
     </property>
@@ -226,9 +230,9 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="btn_search">
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>200</y>
-      <width>141</width>
+      <x>620</x>
+      <y>190</y>
+      <width>151</width>
       <height>41</height>
      </rect>
     </property>
@@ -245,7 +249,7 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="btn_add">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>450</x>
       <y>60</y>
       <width>141</width>
       <height>41</height>
@@ -264,7 +268,7 @@ p, li { white-space: pre-wrap; }
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>450</x>
       <y>120</y>
       <width>81</width>
       <height>21</height>
@@ -283,9 +287,9 @@ p, li { white-space: pre-wrap; }
    <widget class="QComboBox" name="com_fun">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>600</x>
       <y>110</y>
-      <width>161</width>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
@@ -329,9 +333,9 @@ p, li { white-space: pre-wrap; }
    <widget class="QTextEdit" name="text_file">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>10</y>
-      <width>511</width>
+      <width>611</width>
       <height>31</height>
      </rect>
     </property>
@@ -347,9 +351,9 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="btn_file">
     <property name="geometry">
      <rect>
-      <x>530</x>
+      <x>650</x>
       <y>10</y>
-      <width>111</width>
+      <width>121</width>
       <height>31</height>
      </rect>
     </property>
@@ -366,9 +370,9 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="btn_rand">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>620</x>
       <y>60</y>
-      <width>141</width>
+      <width>151</width>
       <height>41</height>
      </rect>
     </property>
@@ -387,8 +391,8 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>10</x>
       <y>400</y>
-      <width>631</width>
-      <height>111</height>
+      <width>761</width>
+      <height>231</height>
      </rect>
     </property>
     <property name="font">
@@ -398,12 +402,17 @@ p, li { white-space: pre-wrap; }
     </property>
     <column>
      <property name="text">
-      <string>数据量</string>
+      <string>哈希算法</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>哈希算法</string>
+      <string>冲突解决方法</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>数据量</string>
      </property>
     </column>
     <column>
@@ -418,16 +427,16 @@ p, li { white-space: pre-wrap; }
     </column>
     <column>
      <property name="text">
-      <string>查询耗时(ms)</string>
+      <string>平均搜索时间(ms)</string>
      </property>
     </column>
    </widget>
    <widget class="QComboBox" name="con_sol">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>600</x>
       <y>150</y>
-      <width>161</width>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
@@ -449,11 +458,6 @@ p, li { white-space: pre-wrap; }
     </item>
     <item>
      <property name="text">
-      <string>再哈希法</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
       <string>建立公共溢出区</string>
      </property>
     </item>
@@ -461,7 +465,7 @@ p, li { white-space: pre-wrap; }
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>450</x>
       <y>160</y>
       <width>111</width>
       <height>21</height>
@@ -480,8 +484,8 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="btn_search_2">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>200</y>
+      <x>450</x>
+      <y>190</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -584,6 +588,22 @@ p, li { white-space: pre-wrap; }
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>text_name</sender>
+   <signal>textChanged()</signal>
+   <receiver>HashSearchClass</receiver>
+   <slot>text_length()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>173</x>
+     <y>87</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>82</x>
+     <y>98</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>btn_file_click()</slot>
@@ -591,5 +611,6 @@ p, li { white-space: pre-wrap; }
   <slot>btn_add_click()</slot>
   <slot>btn_search_click()</slot>
   <slot>btn_built_click()</slot>
+  <slot>text_length()</slot>
  </slots>
 </ui>
